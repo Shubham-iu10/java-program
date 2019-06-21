@@ -1,0 +1,16 @@
+// Reverse String using With StringBuffer class in java.
+
+package basicProgram;
+
+public class ReverseString 
+{
+	
+	public static void main(String[]arg) 
+	
+	{
+		String s= "Singsys";		
+		StringBuffer sf= new StringBuffer(s);
+		System.out.println(sf.reverse());
+		
+	}
+}
